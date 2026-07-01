@@ -3,7 +3,7 @@ services:
     name: api-petshop
     runtime: node
     plan: free
-    buildCoimmand: "npm install"
+    buildCommand: "npm install"
     startCommand: "npm start"
     autoDeploy: true
     envVars:
