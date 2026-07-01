@@ -1,4 +1,4 @@
-servicers:
+services:
   - type: web
     name: api-petshop
     runtime: node
@@ -11,4 +11,3 @@ servicers:
         value: "production"
       - key: MONGO_URI
         sync: false
-        
